@@ -1,0 +1,77 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: right;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background 0.7s;
+  /* make it friendly with other browsers */
+  -webkit-transition: background 0.7s; /* WebKit is a an engine that uses browsers like Safari. */
+  -moz-transition: background 0.7s; /* moz is a an engine that uses browsers like FireFox. */
+}
+
+#container {
+  max-width: 600px;
+  /* padding: 30px; */
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.1;
+  color: white;
+  background: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  outline: none;
+  transition: all 0.7s;
+  /* make it friendly with other browsers */
+  -webkit-transition: all 0.7s; /* WebKit is a an engine that uses browsers like Safari. */
+  -moz-transition: all 0.7s; /* moz is a an engine that uses browsers like FireFox. */
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
+
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.selected {
+  background: steelblue;
+  color: white;
+}
